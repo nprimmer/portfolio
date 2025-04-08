@@ -1,0 +1,24 @@
+.atm-display {
+  background-color: #000000; /* Black background */
+  color: #00ff00; /* Bright green text */
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5em;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #00ff00;
+  text-shadow: 0 0 5px #00ff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Ensure it takes up full height */
+}
+
+.flash {
+  background-color: #00ff00;
+}
+
+.error-message {
+  color: red;
+  font-size: 16px;
+  margin-top: 10px;
+}

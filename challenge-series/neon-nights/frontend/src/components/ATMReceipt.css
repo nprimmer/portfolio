@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.atm-receipt {
+  width: 100%;
+  max-width: 300px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  font-family: 'Roboto Mono', monospace;
+  color: #333;
+  margin: 10px 0;
+  position: relative;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  clip-path: polygon(
+    0% 0%, 100% 0%, 100% calc(100% - 5px), 98% 98%, 96% 100%, 
+    94% 98%, 92% 100%, 90% 98%, 88% 100%, 86% 98%, 84% 100%, 
+    82% 98%, 80% 100%, 78% 98%, 76% 100%, 74% 98%, 72% 100%, 
+    70% 98%, 68% 100%, 66% 98%, 64% 100%, 62% 98%, 60% 100%, 
+    58% 98%, 56% 100%, 54% 98%, 52% 100%, 50% 98%, 48% 100%, 
+    46% 98%, 44% 100%, 42% 98%, 40% 100%, 38% 98%, 36% 100%, 
+    34% 98%, 32% 100%, 30% 98%, 28% 100%, 26% 98%, 24% 100%, 
+    22% 98%, 20% 100%, 18% 98%, 16% 100%, 14% 98%, 12% 100%, 
+    10% 98%, 8% 100%, 6% 98%, 4% 100%, 2% 98%, 0% 100%
+  );
+}
+
+.receipt-header,
+.receipt-body,
+.receipt-footer {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.receipt-header p,
+.receipt-body p,
+.receipt-footer p {
+  margin: 5px 0;
+}

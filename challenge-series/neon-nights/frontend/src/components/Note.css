@@ -1,0 +1,106 @@
+.note-container {
+    width: 100%;
+    position: relative;
+    padding-top: 133.333%; /* Aspect ratio 300px / 225px */
+  }
+  
+  .note {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fffbe6;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 10%;
+  }
+  
+  .note-content {
+    white-space: pre-wrap;
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: right;
+  }
+  
+  /* Hole punch */
+  .note::before {
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 15px;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Notebook paper lines */
+  .note::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: calc(100% - 15px);
+    height: 100%;
+    background: repeating-linear-gradient(
+      to bottom,
+      #fffbe6,
+      #fffbe6 23px,
+      #d3e2f4 24px,
+      #d3e2f4 25px
+    );
+    z-index: -1;
+  }
+  
+  /* Red vertical line */
+  .note::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 35px;
+    width: 1px;
+    height: 100%;
+    background-color: #ff6961;
+    z-index: 1;
+  }
+  
+  /* Ragged edges */
+  .note {
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      100% calc(100% - 10px),
+      98% 95%,
+      96% 98%,
+      92% 95%,
+      90% 100%,
+      85% 98%,
+      82% 95%,
+      80% 100%,
+      75% 98%,
+      70% 100%,
+      65% 95%,
+       60% 100%,
+      55% 98%,
+      50% 95%,
+      45% 100%,
+      40% 98%,
+      35% 100%,
+      30% 95%,
+      25% 100%,
+      20% 98%,
+      15% 95%,
+      10% 100%,
+      5% 98%,
+      0% 100%,
+      0% 0%
+    );
+  }
+  

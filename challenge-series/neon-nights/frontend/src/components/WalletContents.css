@@ -1,0 +1,12 @@
+.wallet-contents {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .wallet-item {
+    width: 350px; /* Standardize width */
+    margin: 0 auto;
+  }
+  

@@ -1,0 +1,54 @@
+.debit-card-container {
+    width: 100%;
+    position: relative;
+    padding-top: 62.8571%; /* Aspect ratio 350px / 220px */
+  }
+  
+  .debit-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000034;
+    border-radius: 15px;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: gold;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .logo {
+    width: 15%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+  
+  .debit-text {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.8em;
+    color: #ff1493;
+    text-shadow: 1px 1px 2px #000, -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 2px #000;
+  }
+  
+  .card-number {
+    font-size: 1em;
+    letter-spacing: 2px;
+    margin-top: 60px;
+    text-shadow: 1px 1px 2px #000, -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 2px #000;
+  }
+  
+  .card-holder {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-shadow: 1px 1px 2px #000, -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 2px #000;
+  }
+  

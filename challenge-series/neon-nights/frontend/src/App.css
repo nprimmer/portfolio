@@ -1,0 +1,111 @@
+.app-container {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  height: 100vh;
+}
+
+.left-column {
+  background-image: url('../public/sidebar.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  overflow-y: auto; /* Allow scrolling if the content exceeds the height */
+}
+
+.center-column {
+  display: grid;
+  grid-template-rows: 15% 60% 25%;
+  background-color: #2b004e; /* Dark purple background */
+  padding: 20px;
+  border: 2px solid #ff00ff; /* Neon pink border */
+  border-radius: 10px;
+  box-shadow: 0 0 20px #ff00ff;
+}
+
+.top-row {
+  background-color: #330066; /* Dark purple background */
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ff00ff; /* Neon pink text */
+  text-shadow: 0 0 5px #ff00ff;
+}
+
+.middle-row {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  background-color: #220033; /* Darker purple background */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px #ff00ff;
+  align-items: center;
+}
+
+.bottom-row {
+  background-color: #330066; /* Dark purple background */
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px #ff00ff;
+  height: 100%;
+}
+
+.vent {
+  width: 80%;
+  height: 80%;
+  background-color: #660099;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px;
+}
+
+.vent::before,
+.vent::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #ff00ff;
+}
+
+.vent::before {
+  top: 15%;
+}
+
+.vent::after {
+  bottom: 15%;
+}
+
+.vent-slit {
+  width: 2px;
+  height: 70%;
+  background-color: #ff00ff;
+  border-radius: 1px;
+}
+
+.right-column {
+  background-image: url('../public/sidebar.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  overflow-y: auto; /* Allow scrolling if the content exceeds the height */
+  transform: scaleX(-1); /* Mirror the image for symmetry */
+}
