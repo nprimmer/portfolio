@@ -9,11 +9,14 @@ GopherCon Challenge Series is a community Capture-The-Flag event, tied to Gopher
 
 ### MCP Intrusion
 
+[Code Here](challenge-series/mcp-intrusion/)
 Themed around Tron
 
 The focus of this challenge is for the users to learn different ways of inspecting and manipulating Docker containers and images to find Flags.
 
 ### Neon Nights
+
+[Code Here](challenge-series/neon-nights/)
 
 Themed around Miami Vice
 
@@ -21,17 +24,23 @@ The focus of this challenge is for the users to inspect the contents of a virtua
 
 ### Nova Messages
 
+[Code Here](challenge-series/nova-messages/)
+
 Themed around Short Circuit
 
 The focus of this challenge is to traverse an open API of a company's internal messaging system, perusing the messages available to identify potential security risks that will allow them to access authenticated endpoints. By astutely following the messages throughout the system, they'll discover that a specific user has poor security practices, uses simple, easily guessable passwords, and also that the IT department has implemented a system to reduce the risk from that user by resetting their password when unusual activity is detected. 
 
 ### OCP Service
 
+[Code Here](challenge-series/ocp-service/)
+
 Themed around Robocop
 
 The focus of this challenge is for the player to open a websocket connection to a remote service. The remote service provides each open connection with a series of math problems of escalating size and complexity. The user needs to determine if each problem has the correct answer, and either verify its correctness, or provide the correct answer, emulating the concept of calibrating sensor data to be more accurate based on feedback. Complicating the player's efforts is that the calibration falls apart the longer the session is open, meaning that they'll lose progress if they try to perform the calibration manually, and instead need to focus on building a programmatic solution to the problem.
 
 ### WOPR
+
+[Code Here](challenge-series/wopr/)
 
 Themed around War Games
 
