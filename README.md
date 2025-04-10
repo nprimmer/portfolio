@@ -1,6 +1,22 @@
 # portfolio
 This repository is being put in place as a portfolio to showcase some examples of my work.
 
+## Articles (articles)
+
+This section holds any blog-style articles or writing that I'm able to share.
+These are intentionally not dated, placed in any sort of order, or scoped
+specifically to any type of technical pursuit.
+
+### Crafting The Challenge
+
+[Link Here](articles/crafting-the-challenge/index.md)
+
+This article, aimed at an audience of Challenge Series administrators,
+describes the process for ideation and creation of a new Challenge. The
+expectation is that the readers of this article are technical contributors to
+the Challenge Series, likely new volunteer administrators, or sponsor employees
+who are crafting sponsored challenges.
+
 ## Challenge Series (challenge-series)
 
 Anything under this directory is something I built as part of the GopherCon Challenge Series.
