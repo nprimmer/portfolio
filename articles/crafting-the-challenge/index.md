@@ -175,10 +175,7 @@ costs, but we'll dive more fully into them in this section.
 | Hint # | Hint Description                                                                                     | Cost (Points) |
 |--------|-----------------------------------------------------------------------------------------------------|---------------|
 | 1      | Pay attention to the sequence of actions the robot performs. Identify the sections where it moves and where it speaks. The order of operations is crucial to understanding the hidden message.    | 1             |
-| 2      | The file included provides a memory dump of a program for a Heathkit Educational Robot, model ET-18. 
-
-There's multiple copies of the manual online, but you can also find one here:
-https://archive.org/details/heathkit-hero-1-ET-18  | 5             |
+| 2      | The file included provides a memory dump of a program for a Heathkit Educational Robot, model ET-18. There's multiple copies of the manual online, but you can also find one here: https://archive.org/details/heathkit-hero-1-ET-18  | 5             |
 | 3      | The instruction for "Begin Speaking" in the ET-18's Robot Language is "72", followed by a memory address where the speech program begins.    | 10            |
 
 #### An Aside on Cost
