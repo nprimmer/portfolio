@@ -32,6 +32,11 @@ variable "cloudflare_zone_id" {
 variable "cloudflare_api_token" {
   type = string
 }
+
+variable "replica_count" {
+  type    = number
+  default = 1
+}
 variable "liveness_endpoint" {
   type    = string
   default = "/"
