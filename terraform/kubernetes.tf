@@ -14,7 +14,7 @@ resource "google_container_node_pool" "challenge_node_pool" {
   name       = "challenge-node-pool"
   location   = "us-central1"
   cluster    = google_container_cluster.challenge_cluster.name
-  node_count = 2
+  node_count = 1
   node_config {
     preemptible     = false
     machine_type    = "e2-standard-2"
