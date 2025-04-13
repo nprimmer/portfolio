@@ -23,10 +23,10 @@ jobs:
         uses: hashicorp/setup-terraform@v1
       - name: Initialize TF
         run: terraform init
-        working-directory: "core/"
+        working-directory: "terraform/"
       - name: Terraform Plan
         run: terraform plan -out ${{github.sha}}.tfplan -var="cloudflare_api_token=${CLOUDFLARE_TOKEN}" -var="cloudflare_zone_id=${CLOUDFLARE_ZONE_ID}" -var="cloudflare_account_id=${CLOUDFLARE_ACCOUNT_ID}""
-        working-directory: "core/"
+        working-directory: "terraform/"
       - name: Terraform Apply
         run: terraform apply ${{github.sha}}.tfplan
-        working-directory: "core/"
+        working-directory: "terraform/"
