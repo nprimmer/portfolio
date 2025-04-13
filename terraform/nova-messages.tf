@@ -7,5 +7,4 @@ module "nova-messages" {
   cloudflare_zone_id   = var.cloudflare_zone_id
   liveness_endpoint    = "/health"
   remove_record        = true
-  replica_count        = 0
 }

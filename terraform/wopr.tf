@@ -8,6 +8,5 @@ module "wopr" {
   cloudflare_zone_id   = var.cloudflare_zone_id
   is_http              = false
   remove_record        = true
-  replica_count        = 0
 }
 
