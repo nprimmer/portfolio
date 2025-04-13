@@ -60,7 +60,7 @@ variable "pv_mount_point" {
 
 variable "image_root" {
   type    = string
-  default = "us-central1-docker.pkg.dev/challenge-series/challenge-series"
+  default = "us-central1-docker.pkg.dev/neilprimmer/challenge-series"
 }
 
 variable "image_version" {
