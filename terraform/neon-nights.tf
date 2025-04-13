@@ -5,7 +5,6 @@ module "neon-nights-frontend" {
   fqdn                 = "miami-first-federal-of-miami.toolchest.app"
   cloudflare_api_token = var.cloudflare_api_token
   cloudflare_zone_id   = var.cloudflare_zone_id
-  remove_record        = true
 }
 
 module "neon-nights-backend" {
@@ -16,5 +15,4 @@ module "neon-nights-backend" {
   cloudflare_api_token = var.cloudflare_api_token
   cloudflare_zone_id   = var.cloudflare_zone_id
   liveness_endpoint    = "/health"
-  remove_record        = true
 }
