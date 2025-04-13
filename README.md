@@ -63,3 +63,9 @@ Themed around War Games
 
 The focus of this challenge is for the player to open a websocket connection to a remote service. This service emulates the WOPR supercomputer from the movie War Games, and offers the ability to initiate the simulation of Global Thermonuclear War, and to play Tic-Tac-Toe.
 Not available in this instance is the adjacent Wiki that was running during the competition, which provided information about the Dr Falken analogue, Dr Alex Winters. Similar to the work done in the movie, the password for access was found by researching Dr Winters in the Wiki after seeing the name mentioned upon first connecting to WOPR.
+
+## Terraform (terraform)
+
+[Code Here](terraform)
+
+Contains representations of the underlying Terraform code that was used for running the example infrastructure, updated to run in a small cluster outside the scope of the challenge series.
