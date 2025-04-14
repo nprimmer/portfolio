@@ -5,5 +5,4 @@ module "pagemaster" {
   fqdn                 = "pagemaster.toolchest.app"
   cloudflare_api_token = var.cloudflare_api_token
   cloudflare_zone_id   = var.cloudflare_zone_id
-  remove_record = true
 }

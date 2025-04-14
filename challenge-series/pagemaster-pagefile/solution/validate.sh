@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the API endpoint
-API_ENDPOINT="http://pagemaster.mentats.org:80/validate"
+API_ENDPOINT="http://pagemaster.toolchest.app:80/validate"
 
 # Check if the user provided a URL as an argument
 if [ "$#" -ne 1 ]; then
