@@ -4,7 +4,7 @@ import ATMDisplay from './components/ATMDisplay';
 import ATMKeypad from './components/ATMKeypad';
 import WalletContents from './components/WalletContents';
 
-const BACKEND_URL = 'https://first-miami-backend.mentats.org/';
+const BACKEND_URL = 'https://first-miami-backend.toolchest.app/';
 
 const App = () => {
   const [currentUser, setCurrentUser] = useState(null);

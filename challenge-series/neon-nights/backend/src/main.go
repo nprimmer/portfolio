@@ -161,7 +161,7 @@ func main() {
 
 	// CORS configuration
 	config := cors.Config{
-		AllowOrigins:     []string{"https://miami-first-federal-of-miami.mentats.org", "https://first-miami-backend.mentats.org"},
+		AllowOrigins:     []string{"https://miami-first-federal-of-miami.toolchest.app", "https://first-miami-backend.toolchest.app"},
 		AllowMethods:     []string{"GET", "POST"},
 		AllowHeaders:     []string{"Origin", "Content-Type"},
 		AllowCredentials: true,
