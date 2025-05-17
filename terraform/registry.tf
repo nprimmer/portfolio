@@ -1,3 +1,4 @@
+/*
 resource "google_artifact_registry_repository" "challenge_repository" {
   provider      = google
   location      = "us-central1"
@@ -5,4 +6,4 @@ resource "google_artifact_registry_repository" "challenge_repository" {
   description   = "Challenge Series Docker Repository"
   format        = "DOCKER"
 }
-
+*/
