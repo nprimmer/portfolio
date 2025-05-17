@@ -1,3 +1,4 @@
+/*
 resource "google_compute_disk" "bbs_root_disk" {
   name  = "bbs-root-disk"
   type  = "pd-standard"
@@ -5,7 +6,7 @@ resource "google_compute_disk" "bbs_root_disk" {
   size  = 20
   image = "ubuntu-2004-lts"
 }
-/*
+
 resource "google_compute_instance" "bbs_instance" {
   name                      = "bbs-instance"
   machine_type              = "e2-medium"

@@ -25,7 +25,7 @@ resource "google_container_node_pool" "challenge_node_pool" {
     ]
   }
 }
-
+/*
 resource "kubernetes_namespace" "challenges" {
   metadata {
     name = "challenges"
@@ -45,3 +45,4 @@ resource "kubernetes_storage_class" "standard" {
   reclaim_policy      = "Retain"
   volume_binding_mode = "WaitForFirstConsumer"
 }
+*/
