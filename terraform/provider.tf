@@ -22,7 +22,7 @@ provider "cloudflare" {
 
 data "google_client_config" "provider" {}
 
-
+/*
 provider "kubernetes" {
   host  = "https://${google_container_cluster.challenge_cluster.endpoint}"
   token = data.google_client_config.provider.access_token
@@ -30,7 +30,7 @@ provider "kubernetes" {
     google_container_cluster.challenge_cluster.master_auth[0].cluster_ca_certificate,
   )
 }
-
+*/
 variable "cloudflare_api_token" {}
 variable "cloudflare_zone_id" {}
 variable "cloudflare_account_id" {}
