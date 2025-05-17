@@ -1,3 +1,4 @@
+
 resource "google_compute_ssl_policy" "challenge_ssl_policy" {
   name            = "challenge-ssl-policy"
   profile         = "MODERN"

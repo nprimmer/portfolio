@@ -5,7 +5,7 @@ resource "google_compute_disk" "bbs_root_disk" {
   size  = 20
   image = "ubuntu-2004-lts"
 }
-
+/*
 resource "google_compute_instance" "bbs_instance" {
   name                      = "bbs-instance"
   machine_type              = "e2-medium"
@@ -47,3 +47,4 @@ resource "google_compute_firewall" "allow_23_inbound" {
   source_ranges = ["0.0.0.0/0"]
   target_tags   = ["bbs"]
 }
+*/
