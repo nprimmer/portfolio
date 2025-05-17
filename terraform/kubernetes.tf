@@ -1,4 +1,4 @@
-/*
+
 resource "google_service_account" "challenge_cluster_sa" {
   account_id   = "challenge-cluster"
   display_name = "Challenge Cluster Service Account"
@@ -9,6 +9,7 @@ resource "google_container_cluster" "challenge_cluster" {
   location                 = "us-central1"
   initial_node_count       = 1
   remove_default_node_pool = true
+  deletion_protection = false
 }
 
 resource "google_container_node_pool" "challenge_node_pool" {
@@ -26,7 +27,7 @@ resource "google_container_node_pool" "challenge_node_pool" {
     ]
   }
 }
-
+/*
 resource "kubernetes_namespace" "challenges" {
   metadata {
     name = "challenges"
