@@ -1,3 +1,4 @@
+/*
 module "neon-nights-frontend" {
   source               = "./application"
   image_name           = "neon-nights-frontend"
@@ -18,3 +19,4 @@ module "neon-nights-backend" {
   liveness_endpoint    = "/health"
   remove_record        = true
 }
+*/

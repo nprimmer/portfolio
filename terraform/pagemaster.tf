@@ -1,3 +1,4 @@
+/*
 module "pagemaster" {
   source               = "./application"
   image_name           = "pagemaster"
@@ -7,3 +8,4 @@ module "pagemaster" {
   cloudflare_zone_id   = var.cloudflare_zone_id
   remove_record        = true
 }
+*/

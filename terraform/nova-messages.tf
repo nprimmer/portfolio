@@ -1,3 +1,4 @@
+/*
 module "nova-messages" {
   source               = "./application"
   image_name           = "nova-messages"
@@ -8,3 +9,4 @@ module "nova-messages" {
   liveness_endpoint    = "/health"
   remove_record        = true
 }
+*/

@@ -1,3 +1,4 @@
+/*
 module "ocp-service" {
   source               = "./application"
   image_name           = "ocp-service"
@@ -9,4 +10,4 @@ module "ocp-service" {
   is_http              = false
   remove_record        = true
 }
-
+*/
