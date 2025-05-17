@@ -1,5 +1,5 @@
+/*
 module "wopr" {
-  count                = 0
   source               = "./application"
   image_name           = "wopr"
   port                 = "8081"
@@ -10,4 +10,4 @@ module "wopr" {
   is_http              = false
   remove_record        = true
 }
-
+*/
