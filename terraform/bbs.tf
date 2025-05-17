@@ -27,7 +27,7 @@ resource "google_compute_instance" "bbs_instance" {
 }
 
 resource "cloudflare_record" "bbs_record" {
-  count = 0
+  count   = 0
   zone_id = var.cloudflare_zone_id
   type    = "A"
   value   = google_compute_instance.bbs_instance.network_interface.0.access_config.0.nat_ip

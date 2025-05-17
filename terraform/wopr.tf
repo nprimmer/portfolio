@@ -1,4 +1,5 @@
 module "wopr" {
+  count                = 0
   source               = "./application"
   image_name           = "wopr"
   port                 = "8081"
@@ -7,6 +8,6 @@ module "wopr" {
   cloudflare_api_token = var.cloudflare_api_token
   cloudflare_zone_id   = var.cloudflare_zone_id
   is_http              = false
-  remove_record = true
+  remove_record        = true
 }
 
